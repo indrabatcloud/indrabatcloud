@@ -1,0 +1,49 @@
+div {
+    width: 400px;
+    height: 400px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+  
+    position: absolute;
+}
+.div1{
+    width: 400px;
+    height: 400px;
+background-color: azure;
+position: absolute;
+}
+.div2{
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+    position:absolute
+}
+.div3{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+   position:absolute;
+    left: 208px;
+}
+.div4
+{
+    width: 200px;
+    height: 200px;
+    background-color: chocolate;
+    position:absolute;
+    bottom: 200px;
+}
+.div5{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    bottom:200px;
+    left: 208px;
+}
+.div6{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position:static
+}

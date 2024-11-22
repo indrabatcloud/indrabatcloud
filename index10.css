@@ -1,0 +1,82 @@
+.background {
+    width: 500px;
+    height: 300px;
+    color: white;
+    /* 배경 색 */
+    /* 투명함(default) */
+    background-color: transparent;
+  
+    /* 배경 그라데이션 */
+    /* background gradient */
+    /* 위 -> 아래 방향 (기본) */
+    background: linear-gradient(blue, pink);
+    background: linear-gradient(to right, blue, pink);
+    background: linear-gradient(75deg, royalblue, pink);
+    background: linear-gradient(0.2turn, royalblue, pink);
+    background: linear-gradient(blue, 20%, pink);
+    background: linear-gradient(blue, pink, green);
+    background: linear-gradient(blue, 20%, pink, 50%, green);
+  }
+  
+  /* 배경 이미지 속성 */
+  .backgroundImage {
+    width: 600px;
+    height: 500px;
+    background-color: lightcoral;
+  
+    /* 이미지 없음 */
+    background-image: none;
+  
+    /* 이미지 경로 */
+    background-image: url(./image/Owl_image.png);
+  
+    /* 이미지 반복 */
+    background-repeat: repeat; /* default 값 */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-repeat: no-repeat; */
+  
+    /* 배경 이미지 위치 */
+    /* 수평 : left, center, right */
+    /* 수직 : top, center, bottom */
+  
+    /* background-position: center; */
+    /* background-position: left top;  */
+    /* 왼쪽 위 정렬*/
+    /* background-position: right bottom;  */
+    /* 오른쪽 아래 정렬*/
+    /* background-position: 30px 100px;  */
+    /* 왼쪽에서 30px, 위에서 100px*/
+    /* background-position: 200px;  */
+    /* 값이 하나만 있으면 수평 위치만 설정, 수직은 기본값 cetner로 설정 */
+  
+    /* 배경 이미지 크기 */
+    /* 첫 번째는 너비(width), 두 번째는 높이(height) */
+    background-size: 30px;
+  
+    /* 이미지의 실제 크기 */
+    background-size: auto;
+  
+    /* 
+      비율 유지 - Cover, Contain 
+      - Cover : 요소의 더 넓은 너비에 맞춤
+      - Contain : 요소의 더 짧은 너비에 맞춤
+    */
+    /* background-size: cover; */
+    /* background-size: 100% auto; */
+    /* 때에 따라서 다름. (가로가 더 넓기에 지금은 가능) */
+  
+    /* background-size: contain; */
+    /* background-size: auto 100%; */
+    /* 때에 따라서 다름. (세로가 더 짧기에 지금은 가능) */
+  
+    overflow: scroll;
+    /* 배경 이미지 스크롤 특성(default) */
+    background-attachment: scroll;
+    /* 배경이 요소 자체를 기준으로 고정되며 콘텐츠와 함께 스크롤되지 않음. */
+    /* background-attachment: fixed; */
+    /* 배경이 뷰포트를 기준으로 고정되어 화면을 스크롤해도 움직이지 않고, 콘텐츠만 스크롤됨. */
+    background-attachment: local;
+    /* 배경이 요소의 내용에 대해 고정되며 컨테이너의 스크롤에 맞춰 같이 움직임. */
+  }
+  
